@@ -1,0 +1,33 @@
+.sobre {
+    background: #eaf2fd;
+    text-align: flex-start;
+    padding: 2% 5%;
+    width: 90%;
+}
+  
+.sobre__mim {
+    color: #464646;
+    padding: 1rem;
+    margin-right: 20rem;
+}
+  
+.sobre__mim__h3 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .sobre__mim__p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  
+  /* Mobile celular */
+  @media screen and (max-width: 376px) {
+    .sobre {
+      font-size: 0.938rem;
+    }
+    .sobre__mim {
+        margin-right: 5rem;
+    }
+  }
